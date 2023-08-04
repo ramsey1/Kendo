@@ -1,0 +1,13 @@
+@import "~@progress/kendo-theme-default/dist/all.css";
+
+.k-grid .k-grid-content {
+    margin-right: -17px;
+  }
+
+  .k-grid .k-grid-header {
+    padding-right: 0 !important;
+  }
+
+  .k-grid .k-grid-header-wrap {
+    border-right: 0;
+  }

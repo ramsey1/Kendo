@@ -1,0 +1,32 @@
+<kendo-grid
+  [data]="gridView"
+  [pageSize]="state.take"
+  [skip]="state.skip"
+  [pageable]="true"
+  (dataStateChange)="onChange($event)"
+>
+  <kendo-grid-column field="id" title="ID" [width]="70"></kendo-grid-column>
+  <kendo-grid-column field="first_name" title="First Name" [width]="150">
+  </kendo-grid-column>
+  <kendo-grid-column field="last_name" title="Last Name" [width]="150">
+  </kendo-grid-column>
+  <kendo-grid-column field="email" title="Email" [width]="200">
+  </kendo-grid-column>
+  <kendo-grid-column field="phone" title="Phone" [width]="150">
+  </kendo-grid-column>
+  <kendo-grid-column field="gender" title="Gender" [width]="100">
+  </kendo-grid-column>
+  <kendo-grid-column field="age" title="Age" [width]="70"> </kendo-grid-column>
+  <kendo-grid-column field="job_title" title="Job Title" [width]="150">
+  </kendo-grid-column>
+  <kendo-grid-column
+    field="years_of_experience"
+    title="Years of Experience"
+    [width]="150"
+  >
+  </kendo-grid-column>
+  <kendo-grid-column field="salary" title="Salary" [width]="150">
+  </kendo-grid-column>
+  <kendo-grid-column field="department" title="Department" [width]="150">
+  </kendo-grid-column>
+</kendo-grid>
